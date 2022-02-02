@@ -1,0 +1,470 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Data Citizen
+    chapters:
+    - file: 1_0_0_data_citizen
+    - file: 1_1_0_data_sources
+      sections:
+      - file: 1_1_1_identifying_data_sources
+      - file: 1_1_2_identifying_demographic_data
+      - file: 1_1_3_identifying_behavioral_data
+      - file: 1_1_4_identifying_psychographic_data
+      - file: 1_1_5_identifying_geographic_data
+      - file: 1_1_6_identifying_temporal_data
+      - file: 1_1_7_LAB_recording_data
+    - file: 1_2_0_data_applications
+      sections:
+      - file: 1_2_1_identifying_data_use_cases
+      - file: 1_2_2_identifying_use_cases_for_demographic_data
+      - file: 1_2_3_identifying_use_cases_for_behavioral_data
+      - file: 1_2_4_identifying_use_cases_for_psychographic_data
+      - file: 1_2_5_identifying_use_cases_for_geographic_data
+      - file: 1_2_6_identifying_use_cases_for_temporal_data
+      - file: 1_2_7_LAB_downloading_and_importing_data
+    - file: 1_3_0_numerical_reasoning
+      sections:
+      - file: 1_3_1_interpreting_metrics
+      - file: 1_3_2_interpreting_percentages
+      - file: 1_3_3_interpreting_statistics
+      - file: 1_3_4_interpreting_correlation
+      - file: 1_3_5_LAB_building_a_metric_calculator
+      - file: 1_3_6_LAB_statistics_playground
+    - file: 1_4_0_visual_literacy
+      sections:
+      - file: 1_4_1_interpreting_charts
+      - file: 1_4_2_interpreting_chart_scaffolding
+      - file: 1_4_3_interpreting_chart_axes
+      - file: 1_4_4_interpreting_chart_scales
+      - file: 1_4_5_interpreting_chart_data_encoding
+      - file: 1_4_6_LAB_chart_playground
+    - file: 1_5_0_visual_reasoning
+      sections:
+      - file: 1_5_1_interpreting_bar_charts
+      - file: 1_5_2_interpreting_line_charts
+      - file: 1_5_3_interpreting_pie_charts
+      - file: 1_5_4_interpreting_histograms
+      - file: 1_5_5_interpreting_heatmaps
+      - file: 1_5_6_interpreting_area_charts
+      - file: 1_5_7_interpreting_scatterplots
+      - file: 1_5_8_interpreting_geospatial_charts
+      - file: 1_5_9_interpreting_time_series_charts
+      - file: 1_5_10_interpreting_stacked_bar_charts
+      - file: 1_5_11_interpreting_pareto_charts
+      - file: 1_5_12_interpreting_special_types_of_bar_charts
+      - file: 1_5_13_LAB_chart_simulator
+    - file: 1_6_0_decision_making
+      sections:
+      - file: 1_6_1_preparing_data_for_decision_making
+      - file: 1_6_2_applying_data_to_decision_making
+      - file: 1_6_3_applying_intelligent_decision_making
+      - file: 1_6_4_LAB_DIKW_data_refiner
+      - file: 1_6_5_LAB_build_a_decision_generator
+    - file: 1_7_0_mental_shortcuts_and_bias
+      sections:
+      - file: 1_7_1_evaluating_cognitive_bias
+      - file: 1_7_2_evaluating_motivated_reasoning
+      - file: 1_7_3_evaluating_AI_bias
+      - file: 1_7_4_LAB_build_a_bias_checker
+    - file: 1_8_0_data_quality_and_ethics
+      sections:
+      - file: 1_8_1_evaluating_data_quality
+      - file: 1_8_2_applying_data_ethics
+      - file: 1_8_3_LAB_build_a_data_validator
+  - caption: Data Storyteller
+    chapters:
+    - file: 2_0_0_data_storyteller
+    - file: 2_1_0_why_data_storytelling
+      sections:
+      - file: 2_1_1_choosing_data_storytelling
+      - file: 2_1_2_applying_data_storytelling
+      - file: 2_1_3_applying_data_storytelling_for_emotional_connection
+      - file: 2_1_4_evaluating_decision_making_processes
+    - file: 2_2_0_gathering_context
+      sections:
+      - file: 2_2_1_gathering_data_storytelling_context
+      - file: 2_2_2_defining_data_storytelling_purpose
+      - file: 2_2_3_defining_data_storytelling_audiences
+      - file: 2_2_4_sourcing_quality_data
+    - file: 2_3_0_crafting_the_message
+      sections:
+      - file: 2_3_1_choosing_data_storytelling_narratives
+      - file: 2_3_2_building_data_storytelling_narratives
+      - file: 2_3_3_building_engaging_data_narratives
+      - file: 2_3_4_building_relatable_data_narratives
+      - file: 2_3_5_choosing_language_for_data_storytelling
+      - file: 2_3_6_incorporating_data_in_data_storytelling
+    - file: 2_4_0_choosing_the_right_chart
+      sections:
+      - file: 2_4_1_selecting_charts
+      - file: 2_4_2_selecting_area_charts
+      - file: 2_4_3_selecting_bar_charts
+      - file: 2_4_4_selecting_data_tables
+    - file: 2_5_0_designing_chart_components
+      sections:
+      - file: 2_5_1_designing_chart_scaffolding
+      - file: 2_5_2_designing_chart_layout
+      - file: 2_5_3_designing_chart_axes
+      - file: 2_5_4_designing_chart_legends
+      - file: 2_5_5_designing_chart_colors
+      - file: 2_5_6_designing_chart_data_encoding
+      - file: 2_5_7_selecting_chart_color_schemes
+      - file: 2_5_8_designing_chart_text
+      - file: 2_5_9_designing_chart_typography
+    - file: 2_6_0_designing_charts
+      sections:
+      - file: 2_6_1_designing_charts
+      - file: 2_6_2_designing_bar_charts
+      - file: 2_6_3_designing_data_dashboards
+      - file: 2_6_4_designing_data_tables
+      - file: 2_6_5_designing_geospatial_charts
+      - file: 2_6_6_designing_line_charts
+      - file: 2_6_7_designing_pie_charts
+      - file: 2_6_8_designing_scatterplots
+      - file: 2_6_9_eliminating_chart_clutter
+    - file: 2_7_0_communicating_with_data_visuals
+      sections:
+      - file: 2_7_1_designing_chart_data_highlighting
+      - file: 2_7_2_designing_charts_for_pattern_recognition
+      - file: 2_7_3_designing_charts_for_visual_processing
+      - file: 2_7_4_designing_visual_hierarchy
+      - file: 2_7_5_designing_visual_narratives
+      - file: 2_7_6_designing_interactive_visual_narratives
+      - file: 2_7_7_designing_visual_narrative_structure
+      - file: 2_7_8_designing_visual_narrative_text
+    - file: 2_8_0_giving_data_presentations
+      sections:
+      - file: 2_8_1_designing_data_presentations
+      - file: 2_8_2_structuring_data_presentation_slides
+      - file: 2_8_3_structuring_data_storytelling_narratives
+      - file: 2_8_4_presenting_data_stories
+  - caption: Data Strategist
+    chapters:
+    - file: 3_0_0_data_strategist
+    - file: 3_1_0_organizational_readiness
+      sections:
+      - file: 3_1_1_evaluating_organizational_data_maturity
+      - file: 3_1_2_shaping_organizational_data_culture
+      - file: 3_1_3_managing_data_innovation
+      - file: 3_1_4_managing_organizational_AI_transformation
+      - file: 3_1_5_applyting_AI_in_organizations
+    - file: 3_2_0_data_strategy
+      sections:
+      - file: 3_2_1_establishing_organizational_data_strategy
+      - file: 3_2_2_establishing_data_governance
+      - file: 3_2_3_defining_data_governance_roles
+      - file: 3_2_4_applying_data_governance
+      - file: 3_2_5_establishing_AI_governance
+      - file: 3_2_6_managing_data_controls
+    - file: 3_3_0_problem_framing
+      sections:
+      - file: 3_3_1_prioritizing_AI_initiatives
+      - file: 3_3_2_framing_data_problems
+      - file: 3_3_3_identifying_analysis_methods
+      - file: 3_3_4_identifying_descriptive_analyses
+      - file: 3_3_5_selecting_analytical_approaches
+      - file: 3_3_6_scoping_data_projects
+      - file: 3_3_7_selecting_the_level_of_AI_automation
+      - file: 3_3_8_selecting_machine_learning
+      - file: 3_3_9_selecting_machine_learning_approaches
+      - file: 3_3_10_selecting_deep_learning
+    - file: 3_4_0_data_products
+      sections:
+      - file: 3_4_1_designing_AI_product_mental_models
+      - file: 3_4_2_designing_AI_learning_systems
+      - file: 3_4_3_designing_AI_product_controls
+      - file: 3_4_4_designing_AI_product_explanations
+      - file: 3_4_5_designing_AI_product_feedback_mechanisms
+      - file: 3_4_6_designing_AI_reward_functions
+      - file: 3_4_7_designing_human_centered_AI_products
+      - file: 3_4_8_designing_interpretable_AI_products
+      - file: 3_4_9_designing_trustworthy_AI_products
+      - file: 3_4_10_evaluating_AI_performance_metrics
+      - file: 3_4_11_evaluating_AI_product_performance
+      - file: 3_4_12_managing_AI_system_performance
+    - file: 3_5_0_data_solution_requirements
+      sections:
+      - file: 3_5_1_defining_data_requirements
+      - file: 3_5_2_evaluating_data_stacks
+      - file: 3_5_3_designing_data_stacks
+      - file: 3_5_4_designing_development_infrastructure
+      - file: 3_5_5_planning_data_collection_for_AI_projects
+      - file: 3_5_6_designing_surveys
+      - file: 3_5_7_collecting_data
+      - file: 3_5_8_designing_data_labelling_processes
+      - file: 3_5_9_preparing_labeled_data
+      - file: 3_5_10_preparing_quality_data_for_analysis
+      - file: 3_5_11_selecting_data_tools
+      - file: 3_5_12_selecting_programming_languages
+    - file: 3_6_0_data_project_management
+      sections:
+      - file: 3_6_1_defining_data_roles
+      - file: 3_6_2_assembling_data_project_teams
+      - file: 3_6_3_planning_data_team_structure
+      - file: 3_6_4_planning_data_project_phases
+      - file: 3_6_5_managing_data_projects
+      - file: 3_6_6_managing_data_project_teams
+      - file: 3_6_7_managing_data_project_phases
+  - caption: Data Explorer
+    chapters:
+    - file: 4_0_0_data_explorer
+    - file: 4_1_0_data_profiling
+      sections:
+      - file: 4_1_1_exploring_metadata
+      - file: 4_1_2_exploring_data_structure
+      - file: 4_1_3_identifying_big_data_types
+      - file: 4_1_4_exploring_data_types
+      - file: 4_1_5_exploring_levels_of_measurement
+      - file: 4_1_6_exploring_numeric_data_types
+      - file: 4_1_7_exploring_numeric_levels_of_measurement
+      - file: 4_1_8_exploring_categorical_data_types
+      - file: 4_1_9_exploring_categorical_levels_of_measurement
+    - file: 4_2_0_data_quality
+      sections:
+      - file: 4_2_1_exploring_data_quality
+      - file: 4_2_2_exploring_data_relevancy
+      - file: 4_2_3_exploring_data_accuracy
+      - file: 4_2_4_exploring_data_completeness
+      - file: 4_2_5_exploring_data_uniqueness
+      - file: 4_2_6_exploring_data_validity
+      - file: 4_2_7_exploring_data_consistency
+      - file: 4_2_8_exploring_data_timeliness
+    - file: 4_3_0_distributions
+      sections:
+      - file: 4_3_1_exploring_measures_of_central_tendency
+      - file: 4_3_2_exploring_measures_of_dispersion
+      - file: 4_3_3_exploring_distribution_types
+      - file: 4_3_4_exploring_dot_plots
+      - file: 4_3_5_exploring_histograms
+      - file: 4_3_6_exploring_box_plots
+      - file: 4_3_7_exploring_data_tables
+      - file: 4_3_8_measuring_normality
+      - file: 4_3_9_detecting_outliers
+    - file: 4_4_0_association
+      sections:
+      - file: 4_4_1_exploring_variable_relationship
+      - file: 4_4_2_exploring_correlation
+      - file: 4_4_3_exploring_line_charts
+      - file: 4_4_4_exploring_scatterplots
+      - file: 4_4_5_exploring_heatmaps
+      - file: 4_4_6_exploring_feature_importance
+      - file: 4_4_7_comparing_train_validation_and_test_distributions
+    - file: 4_5_0_data_wrangling
+      sections:
+      - file: 4_5_1_formatting_text
+      - file: 4_5_2_formatting_datetime
+      - file: 4_5_3_transforming_categorical_features
+      - file: 4_5_4_transforming_numerical_features
+      - file: 4_5_5_treating_duplicates
+      - file: 4_5_6_treating_outliers
+      - file: 4_5_7_treating_missing_values
+      - file: 4_5_8_reshaping_data
+      - file: 4_5_9_combining_data
+  - caption: Data Analyst
+    chapters:
+    - file: 5_0_0_data_analyst
+    - file: 5_1_0_data_analysis
+      sections:
+      - file: 5_1_1_identifying_analysis_methods
+      - file: 5_1_2_forming_statistical_questions
+      - file: 5_1_3_designing_statistical_studies
+      - file: 5_1_4_evaluating_analytical_bias
+    - file: 5_2_0_hypothesis_testing
+      sections:
+      - file: 5_2_1_selecting_hypothesis_tests
+      - file: 5_2_2_designing_hypothesis_tests
+      - file: 5_2_3_performing_hypothesis_tests
+      - file: 5_2_4_analyzing_data_tables
+      - file: 5_2_5_analyzing_histograms
+      - file: 5_2_6_analyzing_box_plots
+      - file: 5_2_7_analyzing_violin_plots
+      - file: 5_2_8_analyzing_qq_plots
+      - file: 5_2_9_evaluating_hypothesis_tests
+    - file: 5_3_0_ab_testing
+      sections:
+      - file: 5_3_1_selecting_ab_tests
+      - file: 5_3_2_designing_ab_tests
+      - file: 5_3_3_performing_ab_tests
+      - file: 5_3_4_evaluating_ab_tests
+      - file: 5_3_5_extending_ab_tests
+    - file: 5_4_0_correlation_analysis
+      sections:
+      - file: 5_4_1_selecting_correlation_analyses
+      - file: 5_4_2_designing_correlation_analyses
+      - file: 5_4_3_performing_correlation_analyses
+      - file: 5_4_4_analyzing_scatterplots
+      - file: 5_4_5_analyzing_line_charts
+      - file: 5_4_6_analyzing_pareto_charts
+      - file: 5_4_7_analyzing_correlation_matrices
+      - file: 5_4_8_analyzing_polar_coordinate_plots
+      - file: 5_4_9_evaluating_correlation_analyses
+    - file: 5_5_0_time_series_analysis
+      sections:
+      - file: 5_5_1_selecting_time_series_analyses
+      - file: 5_5_2_designing_time_series_analyses
+      - file: 5_5_3_performing_time_series_analyses
+      - file: 5_5_4_analyzing_time_series_charts
+      - file: 5_5_5_evaluating_time_series_analyses
+    - file: 5_6_0_text_analysis
+      sections:
+      - file: 5_6_1_selecting_text_analyses
+      - file: 5_6_2_designing_text_analyses
+      - file: 5_6_3_performing_text_analyses
+      - file: 5_6_4_analyzing_text_visualizations
+      - file: 5_6_5_evaluating_text_analyses
+    - file: 5_7_0_geospatial_analysis
+      sections:
+      - file: 5_7_1_selecting_geospatial_analyses
+      - file: 5_7_2_designing_geospatial_analyses
+      - file: 5_7_3_performing_geospatial_analyses
+      - file: 5_7_4_analyzing_contour_plots
+      - file: 5_7_5_analyzing_choropleths
+      - file: 5_7_6_analyzing_maps
+      - file: 5_7_7_analyzing_voronoi_diagrams 
+      - file: 5_7_8_analyzing_variograms
+      - file: 5_7_9_evaluating_geospatial_analyses
+    - file: 5_8_0_intro_to_machine_learning
+      sections:
+      - file: 5_8_1_applying_supervised_learning
+      - file: 5_8_2_applying_unsupervised_learning
+      - file: 5_8_3_selecting_machine_learning_models
+      - file: 5_8_4_training_machine_learning_models
+      - file: 5_8_5_evaluating_machine_learning_models
+  - caption: Data Engineer
+    chapters:
+    - file: 6_0_0_data_engineer
+    - file: 6_1_0_data_storage
+      sections:
+      - file: 6_1_1_identifying_data_structures
+      - file: 6_1_2_identifying_big_data_storage_requirements
+      - file: 6_1_3_identifying_file_formats
+      - file: 6_1_4_selecting_data_storage_types
+      - file: 6_1_5_data_modeling
+    - file: 6_2_0_databases
+      sections:
+      - file: 6_2_1_identifying_database_components
+      - file: 6_2_2_designing_databases
+      - file: 6_2_3_working_with_databases
+    - file: 6_3_0_data_lakes
+      sections:
+      - file: 6_3_1_identifying_data_lake_components
+      - file: 6_3_2_designing_data_lakes
+      - file: 6_3_3_working_with_data_lakes
+    - file: 6_4_0_data_warehouses
+      sections:
+      - file: 6_4_1_identifying_data_warehouse_components
+      - file: 6_4_2_designing_data_warehouses
+      - file: 6_4_3_working_with_data_warehouses
+    - file: 6_5_0_graph_databases
+      sections:
+      - file: 6_5_1_identifying_graph_database_components
+      - file: 6_5_2_designing_graph_databases
+      - file: 6_5_3_working_with_graph_databases
+    - file: 6_6_0_time_series_databases
+      sections:
+      - file: 6_6_1_identifying_time_series_database_components
+      - file: 6_6_2_designing_time_series_databases
+      - file: 6_6_3_working_with_time_series_databases
+    - file: 6_7_0_data_management
+      sections:
+      - file: 6_7_1_managing_data_catalogs
+      - file: 6_7_2_managing_metadata
+      - file: 6_7_3_managing_data_governance
+      - file: 6_7_4_managing_data_lineage
+      - file: 6_7_5_managing_data_privacy
+      - file: 6_7_6_managing_data_security
+    - file: 6_8_0_data_quality_control
+      sections:
+      - file: 6_8_1_monitoring_data_quality
+      - file: 6_8_2_monitoring_data_completeness
+      - file: 6_8_3_monitoring_data_consistency
+      - file: 6_8_4_monitoring_data_timeliness
+      - file: 6_8_5_monitoring_data_accuracy
+      - file: 6_8_6_monitoring_data_uniqueness
+      - file: 6_8_7_monitoring_data_validity
+    - file: 6_9_0_big_data_processing
+      sections:
+      - file: 6_9_1_processing_big_data
+      - file: 6_9_2_identifying_data_processing_components
+      - file: 6_9_3_designing_data_processing_systems
+      - file: 6_9_4_monitoring_data_processing_systems
+      - file: 6_9_5_implementing_data_processing_systems_with_Spark
+    - file: 6_10_0_data_pipelines
+      sections:
+      - file: 6_10_1_identifying_data_pipeline_components
+      - file: 6_10_2_designing_data_pipelines
+      - file: 6_10_3_monitoring_data_pipelines
+      - file: 6_10_4_implementing_data_pipelines_with_Spark
+      - file: 6_10_5_implementing_data_pipelines_with_Airflow
+    - file: 6_11_0_machine_learning_pipelines
+      sections:
+      - file: 6_11_1_identifying_machine_learning_pipeline_components
+      - file: 6_11_2_desiging_machine_learning_pipelines
+      - file: 6_11_3_monitoring_machine_learning_pipelines
+      - file: 6_11_4_implementing_machine_learning_pipelines_with_Spark
+
+  - caption: Data Scientist
+    chapters:
+    - file: 7_0_0_data_scientist
+    - file: 7_1_0_machine_learning
+      sections:
+      - file: 7_1_1_identifying_components_of_machine_learning
+      - file: 7_1_2_applying_machine_learning
+    - file: 7_2_0_supervised_learning
+      sections:
+      - file: 7_2_1_selecting_supervised_learning_models
+      - file: 7_2_2_preparing_data_for_supervised_learning
+      - file: 7_2_3_training_supervised_learning_models
+      - file: 7_2_4_evaluating_supervised_learning_models
+    - file: 7_3_0_unsupervised_learning
+      sections:
+      - file: 7_3_1_selecting_unsupervised_learning_models
+      - file: 7_3_2_preparing_data_for_unsupervised_learning
+      - file: 7_3_3_training_unsupervised_learning_models
+      - file: 7_3_4_evaluating_unsupervised_learning_models
+    - file: 7_4_0_deep_learning
+      sections:
+      - file: 7_4_1_identifying_components_of_deep_learning
+      - file: 7_4_2_applying_deep_learning
+    - file: 7_5_0_computer_vision
+      sections:
+      - file: 7_5_1_selecting_computer_vision_models
+      - file: 7_5_2_preparing_data_for_computer_vision
+      - file: 7_5_3_training_computer_vision_models
+      - file: 7_5_4_evaluating_computer_vision_models
+    - file: 7_6_0_natural_language_processing
+      sections:
+      - file: 7_6_1_selecting_natural_language_processing_models
+      - file: 7_6_2_preparing_data_for_natural_language_processing
+      - file: 7_6_3_training_natural_language_processing_models
+      - file: 7_6_4_evaluating_natural_language_processing_models
+    - file: 7_7_0_network_analysis
+      sections:
+      - file: 7_7_1_selecting_graph_models
+      - file: 7_7_2_preparing_data_for_graph_models
+      - file: 7_7_3_training_graph_models
+      - file: 7_7_4_evaluating_graph_models
+    - file: 7_8_0_recommendation_engines
+      sections:
+      - file: 7_8_1_selecting_recommendation_engine_models
+      - file: 7_8_2_preparing_data_for_recommendation_engines
+      - file: 7_8_3_training_recommendation_engines
+      - file: 7_8_4_evaluating_recommendation_engines
+    - file: 7_9_0_reinforcement_learning
+      sections:
+      - file: 7_9_1_selecting_reinforcement_learning_models
+      - file: 7_9_2_preparing_environments_for_reinforcement_learning
+      - file: 7_9_3_training_reinforcement_learning_agents
+      - file: 7_9_4_evaluating_reinforcement_learning
+    - file: 7_10_0_deploying_data_applications
+      sections:
+      - file: 7_10_1_packaging_models_for_deployment
+      - file: 7_10_2_building_data_application_pipelines
+      - file: 7_10_3_setting_up_model_deployment_infrastructure
+      - file: 7_10_4_designing_data_application_ux_ui
+
+
+

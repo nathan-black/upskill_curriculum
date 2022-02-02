@@ -1,0 +1,1174 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evaluating decision-making processes &#8212; QuantHub Upskill Data Curriculum</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Gathering context" href="2_2_0_gathering_context.html" />
+    <link rel="prev" title="Applying data storytelling for emotional connection" href="2_1_3_applying_data_storytelling_for_emotional_connection.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.svg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">QuantHub Upskill Data Curriculum</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Welcome to QuantHub Upskill Data Curriculum
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Citizen
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_0_0_data_citizen.html">
+   Data Citizen Overview
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="1_1_0_data_sources.html">
+   Data Sources
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_1_1_identifying_data_sources.html">
+     Identifying data sources
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_1_2_identifying_demographic_data.html">
+     Identifying demographic data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_1_3_identifying_behavioral_data.html">
+     Identifying behavioral data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_1_4_identifying_psychographic_data.html">
+     Identifying psychographic data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_1_5_identifying_geographic_data.html">
+     Identifying geographic data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_1_6_identifying_temporal_data.html">
+     Identifying temporal data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_1_7_LAB_recording_data.html">
+     Lab: Recording data
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="1_2_0_data_applications.html">
+   Data Applications
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_2_1_identifying_data_use_cases.html">
+     Identifying data use cases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_2_2_identifying_use_cases_for_demographic_data.html">
+     Identifying use cases for demographic data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_2_3_identifying_use_cases_for_behavioral_data.html">
+     Identifying use cases for behavioral data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_2_4_identifying_use_cases_for_psychographic_data.html">
+     Identifying use cases for psychographic data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_2_5_identifying_use_cases_for_geographic_data.html">
+     Identifying use cases for geographic data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_2_6_identifying_use_cases_for_temporal_data.html">
+     Identifying use cases for temporal data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_2_7_LAB_downloading_and_importing_data.html">
+     Lab: Downloading and importing data
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="1_3_0_numerical_reasoning.html">
+   Numerical Reasoning
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_3_1_interpreting_metrics.html">
+     Interpreting metrics
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_3_2_interpreting_percentages.html">
+     Interpreting percentages
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_3_3_interpreting_statistics.html">
+     Interpreting statistics
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_3_4_interpreting_correlation.html">
+     Interpreting correlation
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_3_5_LAB_building_a_metric_calculator.html">
+     Lab: Building a metric calculator
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_3_6_LAB_statistics_playground.html">
+     Lab: Statistics playground
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="1_4_0_visual_literacy.html">
+   Visual Literacy
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_4_1_interpreting_charts.html">
+     Interpreting charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_4_2_interpreting_chart_scaffolding.html">
+     Interpreting chart scaffolding
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_4_3_interpreting_chart_axes.html">
+     Interpreting chart axes
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_4_4_interpreting_chart_scales.html">
+     Interpreting chart scales
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_4_5_interpreting_chart_data_encoding.html">
+     Interpreting chart data encoding
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_4_6_LAB_chart_playground.html">
+     Lab: Chart playground
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="1_5_0_visual_reasoning.html">
+   Visual Reasoning
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_1_interpreting_bar_charts.html">
+     Interpreting bar charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_2_interpreting_line_charts.html">
+     Interpreting line charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_3_interpreting_pie_charts.html">
+     Interpreting pie charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_4_interpreting_histograms.html">
+     Interpreting histograms
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_5_interpreting_heatmaps.html">
+     Interpreting heatmaps
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_6_interpreting_area_charts.html">
+     Interpreting area charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_7_interpreting_scatterplots.html">
+     Interpreting scatterplots
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_8_interpreting_geospatial_charts.html">
+     Interpreting geospatial charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_9_interpreting_time_series_charts.html">
+     Interpreting time-series charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_10_interpreting_stacked_bar_charts.html">
+     Interpreting stacked bar charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_11_interpreting_pareto_charts.html">
+     Interpreting pareto charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_12_interpreting_special_types_of_bar_charts.html">
+     Interpreting special types of bar charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_5_13_LAB_chart_simulator.html">
+     Lab: Chart simulator
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="1_6_0_decision_making.html">
+   Decision Making
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_6_1_preparing_data_for_decision_making.html">
+     Preparing data for decision-making
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_6_2_applying_data_to_decision_making.html">
+     Applying data to decision-making
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_6_3_applying_intelligent_decision_making.html">
+     Applying intelligent decision-making
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_6_4_LAB_DIKW_data_refiner.html">
+     Lab: DIKW data refiner
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_6_5_LAB_build_a_decision_generator.html">
+     Lab: Build a decision generator
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="1_7_0_mental_shortcuts_and_bias.html">
+   Mental Shortcuts and Bias
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_7_1_evaluating_cognitive_bias.html">
+     Evaluating cognitive bias
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_7_2_evaluating_motivated_reasoning.html">
+     Evaluating motivated reasoning
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_7_3_evaluating_AI_bias.html">
+     Evaluating AI bias
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_7_4_LAB_build_a_bias_checker.html">
+     Lab: Build a decision generator
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="1_8_0_data_quality_and_ethics.html">
+   Data Quality and Ethics
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_8_1_evaluating_data_quality.html">
+     Evaluating data quality
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_8_2_applying_data_ethics.html">
+     Applying data ethics
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1_8_3_LAB_build_a_data_validator.html">
+     Lab: Build a data validator
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Storyteller
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="2_0_0_data_storyteller.html">
+   Data Storyteller Overview
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="2_1_0_why_data_storytelling.html">
+   Why data storytelling
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_1_1_choosing_data_storytelling.html">
+     Choosing data storytelling
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_1_2_applying_data_storytelling.html">
+     Applying data storytelling
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_1_3_applying_data_storytelling_for_emotional_connection.html">
+     Applying data storytelling for emotional connection
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Evaluating decision-making processes
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="2_2_0_gathering_context.html">
+   Gathering context
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_2_1_gathering_data_storytelling_context.html">
+     Gathering data storytelling context
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_2_2_defining_data_storytelling_purpose.html">
+     Defining data storytelling purpose
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_2_3_defining_data_storytelling_audiences.html">
+     Defining data storytelling audiences
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_2_4_sourcing_quality_data.html">
+     Sourcing quality data
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="2_3_0_crafting_the_message.html">
+   Crafting the message
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_3_1_choosing_data_storytelling_narratives.html">
+     Choosing data storytelling narratives
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_3_2_building_data_storytelling_narratives.html">
+     Building data storytelling narratives
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_3_3_building_engaging_data_narratives.html">
+     Building engaging data narratives
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_3_4_building_relatable_data_narratives.html">
+     Building relatable data narratives
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_3_5_choosing_language_for_data_storytelling.html">
+     Choosing language for data storytelling
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_3_6_incorporating_data_in_data_storytelling.html">
+     Incorporating data in data storytelling
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="2_4_0_choosing_the_right_chart.html">
+   Choosing the right chart
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+  <label for="toctree-checkbox-12">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_4_1_selecting_charts.html">
+     Selecting charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_4_2_selecting_area_charts.html">
+     Selecting area charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_4_3_selecting_bar_charts.html">
+     Selecting bar charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_4_4_selecting_data_tables.html">
+     Selecting data tables
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="2_5_0_designing_chart_components.html">
+   Designing chart components
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+  <label for="toctree-checkbox-13">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_5_1_designing_chart_scaffolding.html">
+     Designing chart scaffolding
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_5_2_designing_chart_layout.html">
+     Designing chart layout
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_5_3_designing_chart_axes.html">
+     Designing chart axes
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_5_4_designing_chart_legends.html">
+     Designing chart legends
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_5_5_designing_chart_colors.html">
+     Designing chart colors
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_5_6_designing_chart_data_encoding.html">
+     Designing chart data encoding
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_5_7_selecting_chart_color_schemes.html">
+     Selecting chart color schemes
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_5_8_designing_chart_text.html">
+     Designing chart text
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_5_9_designing_chart_typography.html">
+     Designing chart typography
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="2_6_0_designing_charts.html">
+   Designing charts
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+  <label for="toctree-checkbox-14">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_6_1_designing_charts.html">
+     Designing charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_6_2_designing_bar_charts.html">
+     Designing bar charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_6_3_designing_data_dashboards.html">
+     Designing data dashboards
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_6_4_designing_data_tables.html">
+     Designing data tables
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_6_5_designing_geospatial_charts.html">
+     Designing geospatial charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_6_6_designing_line_charts.html">
+     Designing line charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_6_7_designing_pie_charts.html">
+     Designing pie charts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_6_8_designing_scatterplots.html">
+     Designing scatterplots
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_6_9_eliminating_chart_clutter.html">
+     Eliminating chart clutter
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="2_7_0_communicating_with_data_visuals.html">
+   Communicating with data visuals
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" type="checkbox"/>
+  <label for="toctree-checkbox-15">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_7_1_designing_chart_data_highlighting.html">
+     Designing chart data highlighting
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_7_2_designing_charts_for_pattern_recognition.html">
+     Designing charts for pattern recognition
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_7_3_designing_charts_for_visual_processing.html">
+     Designing charts for visual processing
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_7_4_designing_visual_hierarchy.html">
+     Designing visual hierarchy
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_7_5_designing_visual_narratives.html">
+     Designing visual narratives
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_7_6_designing_interactive_visual_narratives.html">
+     Designing interactive visual narratives
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_7_7_designing_visual_narrative_structure.html">
+     Designing visual narrative structure
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_7_8_designing_visual_narrative_text.html">
+     Designing visual narrative text
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="2_8_0_giving_data_presentations.html">
+   Giving data presentations
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" type="checkbox"/>
+  <label for="toctree-checkbox-16">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_8_1_designing_data_presentations.html">
+     Designing data presentations
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_8_2_structuring_data_presentation_slides.html">
+     Structuring data presentation slides
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_8_3_structuring_data_storytelling_narratives.html">
+     Structuring data storytelling narratives
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2_8_4_presenting_data_stories.html">
+     Presenting data stories
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Strategist
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="3_0_0_data_strategist.html">
+   Data Strategist Overview
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Explorer
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="4_0_0_data_explorer.html">
+   Data Explorer Overview
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Analyst
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="5_0_0_data_analyst.html">
+   Data Analyst Overview
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Engineer
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="6_0_0_data_engineer.html">
+   Data Engineer Overview
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Scientist
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="7_0_0_data_scientist.html">
+   Data Scientist Overview
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/2_1_4_evaluating_decision_making_processes.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F2_1_4_evaluating_decision_making_processes.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/2_1_4_evaluating_decision_making_processes.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#learning-outcomes">
+   Learning outcomes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#learner-facing-goals">
+   Learner-facing goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lesson-plan">
+   Lesson plan
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#warmup-activities">
+     Warmup activities
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#exercises">
+     Exercises
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#wrap-up">
+     Wrap-up
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#concepts">
+   Concepts
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#keywords">
+   Keywords
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Evaluating decision-making processes</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#learning-outcomes">
+   Learning outcomes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#learner-facing-goals">
+   Learner-facing goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lesson-plan">
+   Lesson plan
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#warmup-activities">
+     Warmup activities
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#exercises">
+     Exercises
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#wrap-up">
+     Wrap-up
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#concepts">
+   Concepts
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#keywords">
+   Keywords
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="evaluating-decision-making-processes">
+<h1>Evaluating decision-making processes<a class="headerlink" href="#evaluating-decision-making-processes" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="learning-outcomes">
+<h2>Learning outcomes<a class="headerlink" href="#learning-outcomes" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="learner-facing-goals">
+<h2>Learner-facing goals<a class="headerlink" href="#learner-facing-goals" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="lesson-plan">
+<h2>Lesson plan<a class="headerlink" href="#lesson-plan" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="warmup-activities">
+<h3>Warmup activities<a class="headerlink" href="#warmup-activities" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="exercises">
+<h3>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="wrap-up">
+<h3>Wrap-up<a class="headerlink" href="#wrap-up" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="concepts">
+<h2>Concepts<a class="headerlink" href="#concepts" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="keywords">
+<h2>Keywords<a class="headerlink" href="#keywords" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="2_1_3_applying_data_storytelling_for_emotional_connection.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Applying data storytelling for emotional connection</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="2_2_0_gathering_context.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Gathering context</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Nathan Black and the QuantHub team<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
